@@ -1,0 +1,399 @@
+[
+    {
+        "label": "time",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "isExtraImport": true,
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "get_input_args",
+        "importPath": "get_input_args",
+        "description": "get_input_args",
+        "isExtraImport": true,
+        "detail": "get_input_args",
+        "documentation": {}
+    },
+    {
+        "label": "get_pet_labels",
+        "importPath": "get_pet_labels",
+        "description": "get_pet_labels",
+        "isExtraImport": true,
+        "detail": "get_pet_labels",
+        "documentation": {}
+    },
+    {
+        "label": "classify_images",
+        "importPath": "classify_images",
+        "description": "classify_images",
+        "isExtraImport": true,
+        "detail": "classify_images",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_results4_isadog",
+        "importPath": "adjust_results4_isadog",
+        "description": "adjust_results4_isadog",
+        "isExtraImport": true,
+        "detail": "adjust_results4_isadog",
+        "documentation": {}
+    },
+    {
+        "label": "calculates_results_stats",
+        "importPath": "calculates_results_stats",
+        "description": "calculates_results_stats",
+        "isExtraImport": true,
+        "detail": "calculates_results_stats",
+        "documentation": {}
+    },
+    {
+        "label": "print_results",
+        "importPath": "print_results",
+        "description": "print_results",
+        "isExtraImport": true,
+        "detail": "print_results",
+        "documentation": {}
+    },
+    {
+        "label": "ast",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "ast",
+        "description": "ast",
+        "detail": "ast",
+        "documentation": {}
+    },
+    {
+        "label": "Image",
+        "importPath": "PIL",
+        "description": "PIL",
+        "isExtraImport": true,
+        "detail": "PIL",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.transforms",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.transforms",
+        "description": "torchvision.transforms",
+        "detail": "torchvision.transforms",
+        "documentation": {}
+    },
+    {
+        "label": "Variable",
+        "importPath": "torch.autograd",
+        "description": "torch.autograd",
+        "isExtraImport": true,
+        "detail": "torch.autograd",
+        "documentation": {}
+    },
+    {
+        "label": "torchvision.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "__version__",
+        "importPath": "torch",
+        "description": "torch",
+        "isExtraImport": true,
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "classifier",
+        "importPath": "classifier",
+        "description": "classifier",
+        "isExtraImport": true,
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "classifier",
+        "importPath": "classifier",
+        "description": "classifier",
+        "isExtraImport": true,
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "classifier",
+        "importPath": "classifier",
+        "description": "classifier",
+        "isExtraImport": true,
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "listdir",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "listdir",
+        "importPath": "os",
+        "description": "os",
+        "isExtraImport": true,
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_results4_isadog",
+        "kind": 2,
+        "importPath": "adjust_results4_isadog",
+        "description": "adjust_results4_isadog",
+        "peekOfCode": "def adjust_results4_isadog(results_dic, dogfile):\n    \"\"\"\n    Adjusts the results dictionary to determine if classifier correctly \n    classified images 'as a dog' or 'not a dog' especially when not a match. \n    Demonstrates if model architecture correctly classifies dog images even if\n    it gets dog breed wrong (not a match).\n    Parameters:\n      results_dic - Dictionary with 'key' as image filename and 'value' as a \n                    List. Where the list will contain the following items: \n                  index 0 = pet image label (string)",
+        "detail": "adjust_results4_isadog",
+        "documentation": {}
+    },
+    {
+        "label": "adjust_results4_isadog",
+        "kind": 2,
+        "importPath": "adjust_results4_isadog_hints",
+        "description": "adjust_results4_isadog_hints",
+        "peekOfCode": "def adjust_results4_isadog(results_dic, dogfile):\n    \"\"\"\n    Adjusts the results dictionary to determine if classifier correctly \n    classified images 'as a dog' or 'not a dog' especially when not a match. \n    Demonstrates if model architecture correctly classifies dog images even if\n    it gets dog breed wrong (not a match).\n    Parameters:\n      results_dic - Dictionary with 'key' as image filename and 'value' as a \n                    List. Where the list will contain the following items: \n                  index 0 = pet image label (string)",
+        "detail": "adjust_results4_isadog_hints",
+        "documentation": {}
+    },
+    {
+        "label": "calculates_results_stats",
+        "kind": 2,
+        "importPath": "calculates_results_stats",
+        "description": "calculates_results_stats",
+        "peekOfCode": "def calculates_results_stats(results_dic):\n    \"\"\"\n    Calculates statistics of the results of the program run using classifier's model \n    architecture to classifying pet images. Then puts the results statistics in a \n    dictionary (results_stats_dic) so that it's returned for printing as to help\n    the user to determine the 'best' model for classifying images. Note that \n    the statistics calculated as the results are either percentages or counts.\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)",
+        "detail": "calculates_results_stats",
+        "documentation": {}
+    },
+    {
+        "label": "calculates_results_stats",
+        "kind": 2,
+        "importPath": "calculates_results_stats_hints",
+        "description": "calculates_results_stats_hints",
+        "peekOfCode": "def calculates_results_stats(results_dic):\n    \"\"\"\n    Calculates statistics of the results of the program run using classifier's model \n    architecture to classifying pet images. Then puts the results statistics in a \n    dictionary (results_stats_dic) so that it's returned for printing as to help\n    the user to determine the 'best' model for classifying images. Note that \n    the statistics calculated as the results are either percentages or counts.\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)",
+        "detail": "calculates_results_stats_hints",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "check_images",
+        "description": "check_images",
+        "peekOfCode": "def main():\n    # TODO 0: Measures total program runtime by collecting start time\n    start_time = time()\n    # TODO 1: Define get_input_args function within the file get_input_args.py\n    # This function retrieves 3 Command Line Arugments from user as input from\n    # the user running the program from a terminal window. This function returns\n    # the collection of these command line arguments from the function call as\n    # the variable in_arg\n    in_arg = get_input_args()\n    # Function that checks command line arguments using in_arg  ",
+        "detail": "check_images",
+        "documentation": {}
+    },
+    {
+        "label": "classifier",
+        "kind": 2,
+        "importPath": "classifier",
+        "description": "classifier",
+        "peekOfCode": "def classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms\n    preprocess = transforms.Compose([\n        transforms.Resize(256),\n        transforms.CenterCrop(224),\n        transforms.ToTensor(),\n        transforms.Normalize(mean=[0.485, 0.456, 0.406], std=[0.229, 0.224, 0.225])\n    ])",
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "resnet18",
+        "kind": 5,
+        "importPath": "classifier",
+        "description": "classifier",
+        "peekOfCode": "resnet18 = models.resnet18(pretrained=True)\nalexnet = models.alexnet(pretrained=True)\nvgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)",
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "alexnet",
+        "kind": 5,
+        "importPath": "classifier",
+        "description": "classifier",
+        "peekOfCode": "alexnet = models.alexnet(pretrained=True)\nvgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms",
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "vgg16",
+        "kind": 5,
+        "importPath": "classifier",
+        "description": "classifier",
+        "peekOfCode": "vgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms\n    preprocess = transforms.Compose([",
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "kind": 5,
+        "importPath": "classifier",
+        "description": "classifier",
+        "peekOfCode": "models = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms\n    preprocess = transforms.Compose([\n        transforms.Resize(256),",
+        "detail": "classifier",
+        "documentation": {}
+    },
+    {
+        "label": "classify_images",
+        "kind": 2,
+        "importPath": "classify_images",
+        "description": "classify_images",
+        "peekOfCode": "def classify_images(images_dir, results_dic, model):\n    \"\"\"\n    Creates classifier labels with classifier function, compares pet labels to \n    the classifier labels, and adds the classifier label and the comparison of \n    the labels to the results dictionary using the extend function. Be sure to\n    format the classifier labels so that they will match your pet image labels.\n    The format will include putting the classifier labels in all lower case \n    letters and strip the leading and trailing whitespace characters from them.\n    For example, the Classifier function returns = 'Maltese dog, Maltese terrier, Maltese' \n    so the classifier label = 'maltese dog, maltese terrier, maltese'.",
+        "detail": "classify_images",
+        "documentation": {}
+    },
+    {
+        "label": "classify_images",
+        "kind": 2,
+        "importPath": "classify_images_hints",
+        "description": "classify_images_hints",
+        "peekOfCode": "def classify_images(images_dir, results_dic, model):\n    \"\"\"\n    Creates classifier labels with classifier function, compares pet labels to \n    the classifier labels, and adds the classifier label and the comparison of \n    the labels to the results dictionary using the extend function. Be sure to\n    format the classifier labels so that they will match your pet image labels.\n    The format will include putting the classifier labels in all lower case \n    letters and strip the leading and trailing whitespace characters from them.\n    For example, the Classifier function returns = 'Maltese dog, Maltese terrier, Maltese' \n    so the classifier label = 'maltese dog, maltese terrier, maltese'.",
+        "detail": "classify_images_hints",
+        "documentation": {}
+    },
+    {
+        "label": "get_input_args",
+        "kind": 2,
+        "importPath": "get_input_args",
+        "description": "get_input_args",
+        "peekOfCode": "def get_input_args():\n    \"\"\"\n    Retrieves and parses the 3 command line arguments provided by the user when\n    they run the program from a terminal window. This function uses Python's \n    argparse module to created and defined these 3 command line arguments. If \n    the user fails to provide some or all of the 3 arguments, then the default \n    values are used for the missing arguments. \n    Command Line Arguments:\n      1. Image Folder as --dir with default value 'pet_images'\n      2. CNN Model Architecture as --arch with default value 'vgg'",
+        "detail": "get_input_args",
+        "documentation": {}
+    },
+    {
+        "label": "get_input_args",
+        "kind": 2,
+        "importPath": "get_input_args_hints",
+        "description": "get_input_args_hints",
+        "peekOfCode": "def get_input_args():\n    \"\"\"\n    Retrieves and parses the 3 command line arguments provided by the user when\n    they run the program from a terminal window. This function uses Python's \n    argparse module to created and defined these 3 command line arguments. If \n    the user fails to provide some or all of the 3 arguments, then the default \n    values are used for the missing arguments. \n    Command Line Arguments:\n      1. Image Folder as --dir with default value 'pet_images'\n      2. CNN Model Architecture as --arch with default value 'vgg'",
+        "detail": "get_input_args_hints",
+        "documentation": {}
+    },
+    {
+        "label": "get_pet_labels",
+        "kind": 2,
+        "importPath": "get_pet_labels",
+        "description": "get_pet_labels",
+        "peekOfCode": "def get_pet_labels(image_dir):\n    \"\"\"\n    Creates a dictionary of pet labels (results_dic) based upon the filenames \n    of the image files. These pet image labels are used to check the accuracy \n    of the labels that are returned by the classifier function, since the \n    filenames of the images contain the true identity of the pet in the image.\n    Be sure to format the pet labels so that they are in all lower case letters\n    and with leading and trailing whitespace characters stripped from them.\n    (ex. filename = 'Boston_terrier_02259.jpg' Pet label = 'boston terrier')\n    Parameters:",
+        "detail": "get_pet_labels",
+        "documentation": {}
+    },
+    {
+        "label": "get_pet_labels",
+        "kind": 2,
+        "importPath": "get_pet_labels_hints",
+        "description": "get_pet_labels_hints",
+        "peekOfCode": "def get_pet_labels(image_dir):\n    \"\"\"\n    Creates a dictionary of pet labels (results_dic) based upon the filenames \n    of the image files. These pet image labels are used to check the accuracy \n    of the labels that are returned by the classifier function, since the \n    filenames of the images contain the true identity of the pet in the image.\n    Be sure to format the pet labels so that they are in all lower case letters\n    and with leading and trailing whitespace characters stripped from them.\n    (ex. filename = 'Boston_terrier_02259.jpg' Pet label = 'boston terrier')\n    Parameters:",
+        "detail": "get_pet_labels_hints",
+        "documentation": {}
+    },
+    {
+        "label": "check_command_line_arguments",
+        "kind": 2,
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "peekOfCode": "def check_command_line_arguments(in_arg):\n    \"\"\"\n    For Lab: Classifying Images - 7. Command Line Arguments\n    Prints each of the command line arguments passed in as parameter in_arg, \n    assumes you defined all three command line arguments as outlined in \n    '7. Command Line Arguments'\n    Parameters:\n     in_arg -data structure that stores the command line arguments object\n    Returns:\n     Nothing - just prints to console  ",
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "check_creating_pet_image_labels",
+        "kind": 2,
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "peekOfCode": "def check_creating_pet_image_labels(results_dic):\n    \"\"\"    For Lab: Classifying Images - 9/10. Creating Pet Image Labels\n    Prints first 10 key-value pairs and makes sure there are 40 key-value \n    pairs in your results_dic dictionary. Assumes you defined the results_dic\n    dictionary as was outlined in \n    '9/10. Creating Pet Image Labels'\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)\n    Returns:",
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "check_classifying_images",
+        "kind": 2,
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "peekOfCode": "def check_classifying_images(results_dic):\n    \"\"\"    For Lab: Classifying Images - 11/12. Classifying Images\n    Prints Pet Image Label and Classifier Label for ALL Matches followed by ALL \n    NOT matches. Next prints out the total number of images followed by how \n    many were matches and how many were not-matches to check all 40 images are\n    processed. Assumes you defined the results_dic dictionary as was \n    outlined in '11/12. Classifying Images'\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)",
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "check_classifying_labels_as_dogs",
+        "kind": 2,
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "peekOfCode": "def check_classifying_labels_as_dogs(results_dic):\n    \"\"\"    For Lab: Classifying Images - 13. Classifying Labels as Dogs\n    Prints Pet Image Label, Classifier Label, whether Pet Label is-a-dog(1=Yes,\n    0=No), and whether Classifier Label is-a-dog(1=Yes, 0=No) for ALL Matches \n    followed by ALL NOT matches. Next prints out the total number of images \n    followed by how many were matches and how many were not-matches to check \n    all 40 images are processed. Assumes you defined the results_dic dictionary\n    as was outlined in '13. Classifying Labels as Dogs'\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List ",
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "check_calculating_results",
+        "kind": 2,
+        "importPath": "print_functions_for_lab_checks",
+        "description": "print_functions_for_lab_checks",
+        "peekOfCode": "def check_calculating_results(results_dic, results_stats_dic):\n    \"\"\"    For Lab: Classifying Images - 14. Calculating Results\n    Prints First statistics from the results stats dictionary (that was created\n    by the calculates_results_stats() function), then prints the same statistics\n    that were calculated in this function using the results dictionary.\n    Assumes you defined the results_stats dictionary and the statistics \n    as was outlined in '14. Calculating Results '\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)",
+        "detail": "print_functions_for_lab_checks",
+        "documentation": {}
+    },
+    {
+        "label": "print_results",
+        "kind": 2,
+        "importPath": "print_results",
+        "description": "print_results",
+        "peekOfCode": "def print_results(results_dic, results_stats_dic, model, \n                  print_incorrect_dogs = False, print_incorrect_breed = False):\n    \"\"\"\n    Prints summary results on the classification and then prints incorrectly \n    classified dogs and incorrectly classified dog breeds if user indicates \n    they want those printouts (use non-default values)\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)\n                    idx 1 = classifier label (string)",
+        "detail": "print_results",
+        "documentation": {}
+    },
+    {
+        "label": "print_results",
+        "kind": 2,
+        "importPath": "print_results_hints",
+        "description": "print_results_hints",
+        "peekOfCode": "def print_results(results_dic, results_stats_dic, model, \n                  print_incorrect_dogs = False, print_incorrect_breed = False):\n    \"\"\"\n    Prints summary results on the classification and then prints incorrectly \n    classified dogs and incorrectly classified dog breeds if user indicates \n    they want those printouts (use non-default values)\n    Parameters:\n      results_dic - Dictionary with key as image filename and value as a List \n             (index)idx 0 = pet image label (string)\n                    idx 1 = classifier label (string)",
+        "detail": "print_results_hints",
+        "documentation": {}
+    },
+    {
+        "label": "model",
+        "kind": 5,
+        "importPath": "test_classifier",
+        "description": "test_classifier",
+        "peekOfCode": "model = \"vgg\"\n# Demonstrates classifier() functions usage\n# NOTE: image_classication is a text string - It contains mixed case(both lower\n# and upper case letter) image labels that can be separated by commas when a \n# label has more than one word that can describe it.\nimage_classification = classifier(test_image, model)\n# prints result from running classifier() function\nprint(\"\\nResults from test_classifier.py\\nImage:\", test_image, \"using model:\",\n      model, \"was classified as a:\", image_classification)",
+        "detail": "test_classifier",
+        "documentation": {}
+    },
+    {
+        "label": "image_classification",
+        "kind": 5,
+        "importPath": "test_classifier",
+        "description": "test_classifier",
+        "peekOfCode": "image_classification = classifier(test_image, model)\n# prints result from running classifier() function\nprint(\"\\nResults from test_classifier.py\\nImage:\", test_image, \"using model:\",\n      model, \"was classified as a:\", image_classification)",
+        "detail": "test_classifier",
+        "documentation": {}
+    }
+]
