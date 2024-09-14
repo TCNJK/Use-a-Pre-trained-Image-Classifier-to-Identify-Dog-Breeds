@@ -115,6 +115,30 @@
         "documentation": {}
     },
     {
+        "label": "ResNet18_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "AlexNet_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
+        "label": "VGG16_Weights",
+        "importPath": "torchvision.models",
+        "description": "torchvision.models",
+        "isExtraImport": true,
+        "detail": "torchvision.models",
+        "documentation": {}
+    },
+    {
         "label": "__version__",
         "importPath": "torch",
         "description": "torch",
@@ -230,7 +254,7 @@
         "kind": 5,
         "importPath": "classifier",
         "description": "classifier",
-        "peekOfCode": "resnet18 = models.resnet18(pretrained=True)\nalexnet = models.alexnet(pretrained=True)\nvgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)",
+        "peekOfCode": "resnet18 = models.resnet18(weights=ResNet18_Weights.IMAGENET1K_V1)\n# For AlexNet\nalexnet = models.alexnet(weights=AlexNet_Weights.IMAGENET1K_V1)\n# For VGG16\nvgg16 = models.vgg16(weights=VGG16_Weights.IMAGENET1K_V1)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):",
         "detail": "classifier",
         "documentation": {}
     },
@@ -239,7 +263,7 @@
         "kind": 5,
         "importPath": "classifier",
         "description": "classifier",
-        "peekOfCode": "alexnet = models.alexnet(pretrained=True)\nvgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms",
+        "peekOfCode": "alexnet = models.alexnet(weights=AlexNet_Weights.IMAGENET1K_V1)\n# For VGG16\nvgg16 = models.vgg16(weights=VGG16_Weights.IMAGENET1K_V1)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)",
         "detail": "classifier",
         "documentation": {}
     },
@@ -248,7 +272,7 @@
         "kind": 5,
         "importPath": "classifier",
         "description": "classifier",
-        "peekOfCode": "vgg16 = models.vgg16(pretrained=True)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms\n    preprocess = transforms.Compose([",
+        "peekOfCode": "vgg16 = models.vgg16(weights=VGG16_Weights.IMAGENET1K_V1)\nmodels = {'resnet': resnet18, 'alexnet': alexnet, 'vgg': vgg16}\n# obtain ImageNet labels\nwith open('imagenet1000_clsid_to_human.txt') as imagenet_classes_file:\n    imagenet_classes_dict = ast.literal_eval(imagenet_classes_file.read())\ndef classifier(img_path, model_name):\n    # load the image\n    img_pil = Image.open(img_path)\n    # define transforms\n    preprocess = transforms.Compose([",
         "detail": "classifier",
         "documentation": {}
     },

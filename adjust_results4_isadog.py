@@ -83,4 +83,4 @@ def adjust_results4_isadog(results_dic, dogfile):
         dataInline = data.readline()
 
       for key in results_dic:
-        results_dic[key].extend((1 if results_dic[key][0] else 0, 1 if results_dic[key][1] else 0))
+        results_dic[key].extend((1 if results_dic[key][0] in dicts else 0, 1 if results_dic[key][1] in dicts else 0))
